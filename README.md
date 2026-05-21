@@ -5,3 +5,4 @@ Svůj ročníkový projekt budu dělat ve WPF <br>
 29.4. udělal jsem další scénu<br>
 7.5. jsem udělal scénu číslo 4<br>
 13.5. udělal jsem nějaké menší změny aby to fungovalo víc logicky<br>
+21.5. dodělal jsem většinu projektu
