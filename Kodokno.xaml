@@ -1,0 +1,21 @@
+﻿<Window x:Class="rocnikový_projekt.Kodokno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rocnikový_projekt"
+        mc:Ignorable="d"
+        Title="Kodokno" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <TextBlock Text="Zadej kód:" FontSize="16" Margin="0,0,0,10" />
+            <TextBox x:Name="Inputkod" Width="150" Height="30" />
+            <Button Content="OK"
+                    Width="100"
+                    Margin="0,10,0,0"
+                    Click="Potvrdit" />
+
+        </StackPanel>
+    </Grid>
+</Window>
